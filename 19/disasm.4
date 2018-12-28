@@ -1,0 +1,22 @@
+if r0 == 0:
+    r2 = 1024
+    r4 = 188
+else:
+    r2 = 10551424
+    r4 = 10550400
+r0 = 0
+r1 = 1
+r3 = 0
+r5 = 0
+
+while True:
+    r5 = 1
+    while True:
+        if r4 == r2:
+            r0 += r1
+        r5 += 1
+        if r5 > r2:
+            break
+    r1 += 1
+    if r1 > r2:
+        EXIT

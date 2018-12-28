@@ -1,0 +1,17 @@
+|x-x0| + |y-y0| <= r
+
+x>=x0, y>=y0, x-x0+y-y0 <= r <=> x+y <=  r+x0+y0
+x<x0,  y<y0,  x0-x+y0-y <= r <=> x+y >= -r+x0+y0
+x<x0,  y>=y0, x0-x+y-y0 <= r <=> x-y >= -r+x0-y0
+x>=x0, y<y0,  x-x0+y0-y <= r <=> x-y <=  r+x0-y0
+
+---
+|x| + |y| = r
+
+x >= 0, y >= 0, x + y = r
+x < 0,  y < 0,  x + y = -r
+x >= 0, y < 0,  x - y = r
+x < 0,  y >= 0, x - y = -r
+
+sgn(x) = sgn(y), |x + y| = r
+sgn(x) != sgn(y), |x - y| = r
